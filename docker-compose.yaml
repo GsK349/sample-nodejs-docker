@@ -1,0 +1,14 @@
+# version
+version: '3'
+
+services:
+#services
+#pre-built image
+  redis-server:
+    image: 'redis'
+#our application image
+  node-app:
+    build: .
+#port mapping from - > to
+    ports:
+      - "8081:8081"
