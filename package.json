@@ -1,0 +1,23 @@
+{
+  "name": "sample-nodejs-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://GsK349: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@github.com/GsK349/sample-nodejs-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GsK349/sample-nodejs-docker/issues"
+  },
+  "homepage": "https://github.com/GsK349/sample-nodejs-docker#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
